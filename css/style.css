@@ -33,28 +33,49 @@ nav div {
 	max-width: 100%;
 }
 
-.lista li {
+.lista ul {
     list-style: none;
-    margin: 5px 15px;
-    padding: 0;
+}
+.lista ul li {
     display: inline-block;
+    width: 124px;
+    vertical-align: top;
+    margin: 0 10px 10px 0;
+}
+.lista ul a {
+    text-decoration: none; 
     font-size: 15px;
-    color: black;
+}
+.lista ul li a p {
     text-align: center;
+    font-weight: lighter;
+    color: #4987bc;
 }
-.contenido li img{
-	width: 100px;
-	display: inline-block;
-	}
+.lista .img-responsive {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 3px;
+}
 
+.lista a{
+    list-style: none;
+    color: black;
+    outline-style: none;
+}
 
-.contenido .icono{
+.itunes{
+    display: inline-block;
+}
+.itunes li img{
 	width: 15px;
-	height: 15px;
-}
+   }
+.itunes li{
+    list-style: none;
+    font-size: 10px;
+    }
+
 .contenido h3{
 	font-size: 15px;
-	font-family: Arial;
 	padding-left: 0;
 	padding-bottom: 5px;
 	border-bottom: 2px solid #A4A4A4;
